@@ -32,6 +32,8 @@ body {
   color: var(--body-color);
   overflow-x: hidden;
   position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -243,14 +245,3 @@ svg.icon-sm {
     margin-left: 0;
   }
 }
-
-
-
-
-.buy-now-wrapper {
-  position: fixed;
-  bottom: 30px;
-  right: 35px;
-  z-index: 99999;
-}
-
